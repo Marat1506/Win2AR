@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
 
-#Запуск проекта
+#Запуск проекта \n
 npm i;
 npm run dev;
