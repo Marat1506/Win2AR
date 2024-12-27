@@ -90,39 +90,6 @@ export const NursesTable = () => {
                     ))}
                 </TableBody>
             </Table>
-
-            {/* <Dialog open={openDialog} onClose={handleCloseDialog}>
-          <DialogTitle>{isAdding ? "Добавить медсестру" : "Редактировать медсестру"}</DialogTitle>
-          <DialogContent>
-            {currentNurse && (
-              <>
-                <TextField
-                  label="ФИО"
-                  value={currentNurse.name}
-                  onChange={(e) => setCurrentNurse({ ...currentNurse, name: e.target.value })}
-                  fullWidth
-                  margin="normal"
-                />
-                <TextField
-                  label="Отделение"
-                  value={currentNurse.department}
-                  onChange={(e) => setCurrentNurse({ ...currentNurse, department: e.target.value })}
-                  fullWidth
-                  margin="normal"
-                />
-                
-              </>
-            )}
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleCloseDialog} color="primary">
-              Отмена
-            </Button>
-            <Button onClick={handleSave} color="primary">
-              Сохранить
-            </Button>
-          </DialogActions>
-        </Dialog> */}
             <DialogAction
                 currentItem={currentNurse}
                 handleCloseDialog={handleCloseDialog}
